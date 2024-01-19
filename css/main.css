@@ -16,7 +16,11 @@ header{
   background-color: rgb(66, 78, 255);
 }
 
-
+body{
+  width: 1000px;
+  margin: auto;
+  align-content: center;
+}
 
 .top{
   width: 80%;
