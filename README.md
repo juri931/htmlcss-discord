@@ -1,3 +1,3 @@
 Discord
 ===
-Consegna repo "htmlcss-struttura-discord" (WIP)
+Consegna repo "htmlcss-discord"
