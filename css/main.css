@@ -13,13 +13,12 @@ header{
   justify-content: center;
   align-items: center;
   height: 50px;
-  background-color: rgb(66, 78, 255);
+  background-color: rgb(55, 81, 255);
 }
 
 body{
   width: 1000px;
   margin: auto;
-  align-content: center;
 }
 
 .top{
@@ -28,6 +27,10 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.top li:hover{
+  text-decoration: underline;
 }
 
 .logo{
@@ -43,14 +46,18 @@ body{
 
 .menu ul{
   display: flex;
-  list-style: none;
-  justify-content: center;
+  font-size: .8rem;
   justify-content: space-evenly;
 }
 
-nav ul li a{
+ul li a{
+  list-style: none;
   text-decoration: none;
   color: white;
+}
+
+ul li a:hover{
+  text-decoration: underline;
 }
 
 .login{
@@ -70,9 +77,9 @@ nav ul li a{
 /* Inizio jumbo */
 .jumbo{
   display: flex;
-  height: 400px;
-  background-image: url(/img/jumbo.png);
-  background-size: cover;
+  height: 372px;
+  background-image: url(../img/jumbo.png);
+  background-size:contain;
   justify-content: center;
   align-items: center;
 }
@@ -81,10 +88,9 @@ nav ul li a{
   display: flex;
   text-align: center;
   justify-content: center;
-  height: 80%;
-  width: 70%;
+  height: 70%;
+  width: 58%;
   flex-wrap: wrap;
-  font-weight: 500;
 }
 
 .jumbo-box h1{
@@ -93,7 +99,6 @@ nav ul li a{
 }
 
 .jumbo-box p{
-  display: flex;
   width: 500px;
   font-weight: 600;
   color: white;
@@ -101,7 +106,7 @@ nav ul li a{
 
 .jumbo-box a{
   height: fit-content;
-  margin: 0 40px;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: 600;
   border-radius: 30px;
@@ -146,28 +151,28 @@ nav ul li a{
 }
 
 .section-box-large.one{
-  background-image: url(/img/item1.svg);
+  background-image: url(../img/item1.svg);
 }
 
 .section-box-large.two{
-  background-image: url(/img/item2.svg);
+  background-image: url(../img/item2.svg);
 }
 
 .section-box-large.img-three{
-  background-image: url(/img/item3.svg);
+  background-image: url(../img/item3.svg);
 }
 
 .section-box-small{
   display: flex;
-  text-align: center justify;
+  text-align: left;
   flex-flow: column;
   justify-content: center;
   height: 100%;
   width: 30%;
-  font-weight: 500;
+  font-size: 1.1rem;
 }
 
-.section-box-small p{
+.section p{
   margin-top: 20px;
 }
 
@@ -208,7 +213,7 @@ nav ul li a{
   display: flex;
   align-self: center;
   padding: 30px;
-  background-image: url(/img/stars.svg);
+  background-image: url(../img/stars.svg);
   background-size:contain;
   background-repeat: no-repeat;
 }
@@ -258,7 +263,6 @@ footer{
 }
 
 .language{
-  /* display: flex; */
   margin: 10px 0;
   color: white;
 }
@@ -274,6 +278,7 @@ footer{
 .footer-box-small{
   display: flex;
   width: 20%;
+  margin-left: 38px;
 }
 
 .socials svg{
@@ -283,8 +288,11 @@ footer{
 
 ul{
   list-style: none;
-  color: white;
   font-weight: bold;
+}
+
+.footer-box-small ul li{
+  text-decoration: none;
 }
 
 .footer-box-small li{
